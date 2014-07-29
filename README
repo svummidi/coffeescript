@@ -1,0 +1,19 @@
+Installation for coffeescript using gulpjs
+1. Install nodejs in your directory (windows/linux/mac)
+	details @ http://nodejs.org
+2. After install node js install coffeescript using npm (node package manager)
+	sudo npm install -g coffee-script (if you didn't wish globally ignore -g)
+3. Install ruby (for sass)
+4. Install gulpjs
+	sudo npm install -g gulp
+5. Now go to project folder install gulp plugins
+	1. gulp
+	2. gulp-coffee (compiles coffeescript files)
+	3. gulp-compass (compile compass files)
+	4. gulp-concat (concats files)
+	5. gulp-livereload (reloads webpage)
+	6. gulp-ruby-sass (css processor)
+	7. gulp-uglify (Minify files with UglifyJS)
+	8. gulp-util
+	9. tiny-lr
+6. read gulpfile.js tasks running for the application
